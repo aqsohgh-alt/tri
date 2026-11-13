@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Aqso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <a href="#home" class="logo">Aqso<span>.</span></a>
+    <nav class="navbar" id="navbar">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <div class="nav-buttons">
+        <button class="theme-btn" id="theme-btn" aria-label="Ganti tema"><i class="fa-solid fa-moon"></i></button>
+        <button class="menu-btn" id="menu-btn" aria-label="Buka menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+</header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <p class="hello">👋 Halo, Selamat Datang</p>
+        <h1>Saya <span>Aqso</span></h1>
+        <h2><span id="typing"></span></h2>
+        <p class="description">Saya adalah seorang pelajar dan Web Developer yang tertarik dengan teknologi, pemrograman, desain website, dan pengembangan aplikasi digital.</p>
+        <div class="home-buttons">
+            <a href="#portfolio" class="btn">Lihat Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+        <div class="social-media">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="home-image">
+        <div class="image-bg"></div>
+        <div class="profile-card"><img class="profile-photo" src="1.jpeg" alt="Foto profil Aqso"></div>
+        <div class="floating-card card-1"><i class="fa-solid fa-code"></i><span>Web Developer</span></div>
+        <div class="floating-card card-2"><i class="fa-solid fa-laptop-code"></i><span>Programmer</span></div>
+    </div>
+</section>
+
+<section class="about section" id="about">
+    <div class="section-title"><p>TENTANG SAYA</p><h2>Mengenal Saya Lebih <span>Dekat</span></h2></div>
+    <div class="about-container">
+        <div class="about-image"><div class="about-photo"><img class="about-profile-photo" src="1.jpeg" alt="Foto Aqso"></div></div>
+        <div class="about-content">
+            <h3>Halo! Saya Aqso 👋</h3>
+            <p>Saya memiliki ketertarikan dalam bidang teknologi dan pengembangan website. Saya senang mempelajari pemrograman, desain antarmuka, dan pembuatan aplikasi digital.</p>
+            <p>Teknologi yang saya pelajari meliputi HTML, CSS, JavaScript, PHP, MySQL, Laravel, Dart, Flutter, dan Figma.</p>
+            <div class="about-info">
+                <div class="info-item"><i class="fa-solid fa-user"></i><div><span>Nama</span><strong>Aqso</strong></div></div>
+                <div class="info-item"><i class="fa-solid fa-envelope"></i><div><span>Email</span><strong><a href="mailto:aqso8852@gmail.com">aqso8852@gmail.com</a></strong></div></div>
+                <div class="info-item"><i class="fa-solid fa-location-dot"></i><div><span>Lokasi</span><strong>Indonesia</strong></div></div>
+            </div>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+    </div>
+</section>
+
+<section class="skills section" id="skills">
+    <div class="section-title"><p>KEAHLIAN</p><h2>Teknologi yang Saya <span>Pelajari</span></h2></div>
+    <div class="skills-container">
+        <div class="skill-card"><div class="skill-icon html"><i class="fa-brands fa-html5"></i></div><h3>HTML</h3><p>Membuat struktur website yang rapi dan terorganisir.</p></div>
+        <div class="skill-card"><div class="skill-icon css"><i class="fa-brands fa-css3-alt"></i></div><h3>CSS</h3><p>Mendesain tampilan website modern dan responsif.</p></div>
+        <div class="skill-card"><div class="skill-icon javascript"><i class="fa-brands fa-js"></i></div><h3>JavaScript</h3><p>Membuat website menjadi lebih interaktif.</p></div>
+        <div class="skill-card"><div class="skill-icon php"><i class="fa-brands fa-php"></i></div><h3>PHP</h3><p>Mengembangkan backend dan sistem website.</p></div>
+        <div class="skill-card"><div class="skill-icon database"><i class="fa-solid fa-database"></i></div><h3>MySQL</h3><p>Mengelola database aplikasi dan website.</p></div>
+        <div class="skill-card"><div class="skill-icon flutter"><i class="fa-solid fa-mobile-screen"></i></div><h3>Flutter</h3><p>Mempelajari pengembangan aplikasi modern.</p></div>
+        <div class="skill-card"><div class="skill-icon laravel"><i class="fa-brands fa-laravel"></i></div><h3>Laravel</h3><p>Mengembangkan aplikasi web dengan framework Laravel.</p></div>
+        <div class="skill-card"><div class="skill-icon figma"><i class="fa-brands fa-figma"></i></div><h3>Figma</h3><p>Membuat desain dan prototype website.</p></div>
+    </div>
+</section>
+
+<section class="portfolio section" id="portfolio">
+    <div class="section-title"><p>PROJECT</p><h2>Portfolio <span>Terbaik Saya</span></h2></div>
+    <div class="portfolio-container">
+        <article class="portfolio-card"><div class="portfolio-image"><div class="project-icon"><i class="fa-solid fa-cash-register"></i></div></div><div class="portfolio-content"><div class="project-category">WEB APPLICATION</div><h3>Aplikasi Kasir</h3><p>Sistem kasir dengan produk, pelanggan, transaksi, dan laporan.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="kasir/index.html" class="project-link">Lihat Project <i class="fa-solid fa-arrow-right"></i></a></div></article>
+        <article class="portfolio-card"><div class="portfolio-image"><div class="project-icon"><i class="fa-solid fa-shirt"></i></div></div><div class="portfolio-content"><div class="project-category">MOCKUP &amp; PROTOTYPE</div><h3>Mockup dan Prototype</h3><p>Perancangan mockup dan prototype interaktif untuk konsep aplikasi fashion store.</p><div class="project-tech"><span>Figma</span><span>UI/UX</span><span>Prototype</span></div><a href="https://www.figma.com/design/UHKU2x8KMZaSzOy93UPAC6/Untitled?node-id=0-1&amp;m=dev&amp;t=75FexIuXGu8khrVw-1" class="project-link" target="_blank" rel="noopener noreferrer">Lihat di Figma <i class="fa-solid fa-arrow-right"></i></a></div></article>
+        <article class="portfolio-card"><div class="portfolio-image before-after" aria-label="Perbandingan desain website sebelum dan sesudah redesign"><figure class="comparison-image"><img src="before.png" alt="Tampilan website pemerintah sebelum redesign" loading="lazy"><figcaption>Sebelum</figcaption></figure><figure class="comparison-image"><img src="after.png" alt="Tampilan website pemerintah sesudah redesign" loading="lazy"><figcaption>Sesudah</figcaption></figure></div><div class="portfolio-content"><div class="project-category">STUDI KASUS</div><h3>Redesign Website Pemerintah</h3><p>Perancangan perbaikan antarmuka website agar lebih mudah digunakan.</p><div class="project-tech"><span>Figma</span><span>UI/UX</span></div><a href="redesign/index.html" class="project-link">Lihat Project <i class="fa-solid fa-arrow-right"></i></a></div></article>
+    </div>
+</section>
+
+<section class="education section" id="education">
+    <div class="section-title"><p>PENDIDIKAN</p><h2>Perjalanan <span>Pendidikan</span></h2></div>
+    <div class="timeline">
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-year">Sekarang</span><h3>Sekolah Menengah Kejuruan</h3><p>Mempelajari bidang teknologi dan pengembangan perangkat lunak.</p></div></div>
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-year">Pengalaman</span><h3>Belajar Web Development</h3><p>Mempelajari HTML, CSS, JavaScript, PHP, MySQL, Laravel, dan Flutter.</p></div></div>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <div class="section-title"><p>KONTAK</p><h2>Mari <span>Terhubung</span></h2></div>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Mari Bekerja Sama 👋</h3>
+            <p>Jika Anda ingin bertanya atau berdiskusi mengenai project website dan teknologi, silakan hubungi saya.</p>
+            <div class="contact-item"><i class="fa-solid fa-envelope"></i><div><span>Email</span><strong><a href="mailto:aqso8852@gmail.com">aqso8852@gmail.com</a></strong></div></div>
+            <div class="contact-item"><i class="fa-brands fa-whatsapp"></i><div><span>WhatsApp</span><strong>+62 xxx xxxx xxxx</strong></div></div>
+            <div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><span>Lokasi</span><strong>Indonesia</strong></div></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <div class="input-group"><input type="text" id="name" placeholder="Nama Anda" required></div>
+            <div class="input-group"><input type="email" id="email" placeholder="Email Anda" required></div>
+            <div class="input-group"><input type="text" id="subject" placeholder="Subjek"></div>
+            <div class="input-group"><textarea id="message" rows="6" placeholder="Tulis pesan Anda..." required></textarea></div>
+            <button type="submit" class="btn">Kirim Pesan <i class="fa-solid fa-paper-plane"></i></button>
+            <p id="formMessage" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-logo">Aqso<span>.</span></div>
+    <p>© 2026 Aqso. Dibuat menggunakan HTML, CSS & JavaScript.</p>
+    <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>
+
+<button id="scrollTopBtn" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="script.js"></script>
+</body>
+</html>
